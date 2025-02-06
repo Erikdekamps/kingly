@@ -1,0 +1,15 @@
+{
+    "name": "drupal/kingly",
+    "description": "A Drupal recipe that installs other recipes to kickstart a site.",
+    "keywords": ["recipe", "Drupal base install", "best practices", "simple install"],
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev",
+    "require": {
+        "drupal/core": ">=10.4",
+        "drupal/velir_base": "^1.0",
+        "droptica/ddr_security_seckit": "^1.0",
+        "drupal/drupal_cms_image": "^1.0",
+        "drupal/drupal_cms_privacy_basic": "^1.0"
+    }
+}

@@ -1,0 +1,15 @@
+name: 'Kingly'
+type: 'Site'
+description: Installs other recipes to kickstart a site.
+recipes:
+  - velir_base
+  - ddr_security_seckit
+  - drupal_cms_image
+  - drupal_cms_privacy_basic
+config:
+  strict: false
+  actions:
+    gin.settings:
+      simple_config_update:
+        classic_toolbar: new
+        enable_darkmode: auto
