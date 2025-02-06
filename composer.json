@@ -1,5 +1,5 @@
 {
-    "name": "drupal/kingly",
+    "name": "erikdekamps/kingly",
     "description": "A Drupal recipe that installs other recipes to kickstart a site.",
     "keywords": ["recipe", "Drupal base install", "best practices", "simple install"],
     "type": "drupal-recipe",
