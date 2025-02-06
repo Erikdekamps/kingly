@@ -5,7 +5,8 @@ recipes:
   - velir_base
   - ddr_security_seckit
   - drupal_cms_image
-  - drupal_cms_privacy_basic
+  - drupal_cms_search
+
 config:
   strict: false
   actions:
