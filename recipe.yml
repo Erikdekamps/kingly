@@ -14,3 +14,6 @@ config:
       simple_config_update:
         classic_toolbar: new
         enable_darkmode: auto
+    system.theme:
+      simple_config_update:
+        default: 'olivero'
