@@ -4,11 +4,28 @@
     "keywords": ["recipe", "Drupal base install", "best practices", "simple install"],
     "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/erikdekamps/kingly_page"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/erikdekamps/kingly_paragraph_text"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/erikdekamps/kingly_frontend"
+        }
+    ],
     "require": {
         "drupal/core": ">=10.4",
         "drupal/velir_base": "^1.0",
         "droptica/ddr_security_seckit": "^1.0",
         "drupal/drupal_cms_image": "^1.0",
-        "drupal/drupal_cms_search": "^1.0"
+        "drupal/drupal_cms_search": "^1.0",
+        "erikdekamps/kingly_page": "dev-main",
+        "erikdekamps/kingly_paragraph_text": "dev-main",
+        "erikdekamps/kingly_frontend": "dev-main"
     }
 }
