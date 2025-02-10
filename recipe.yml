@@ -10,7 +10,6 @@ recipes:
 install:
   - field_group
   - coffee
-  - paragraphs_bundles
 
 config:
   strict: false
