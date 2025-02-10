@@ -9,7 +9,6 @@ recipes:
 
 install:
   - field_group
-  - field_layout
   - coffee
 
 config:
