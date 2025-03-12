@@ -11,7 +11,7 @@
         "drupal/drupal_cms_image": "^1.0",
         "drupal/drupal_cms_search": "^1.0",
         "drupal/drupal_cms_admin_ui": "^1.0",
-        "erikdekamps/kingly_frontend": "dev-main",
+        "erikdekamps/kingly_frontend": "dev-feat/kingly-frontend-theme",
         "erikdekamps/kingly_page": "dev-main",
         "erikdekamps/kingly_paragraph_text": "dev-main",
         "erikdekamps/kingly_paragraph_card": "dev-main",
