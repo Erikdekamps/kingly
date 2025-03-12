@@ -10,6 +10,7 @@ recipes:
 install:
   - field_group
   - coffee
+  - kingly_sdc
 
 config:
   strict: false
