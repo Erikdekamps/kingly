@@ -14,7 +14,7 @@
         "drupal/metatag": "^2.1",
         "drupal/pathauto": "^1.13",
         "drupal/redirect": "^1.11",
-        "erikdekamps/kingly_frontend": "dev-feat/kingly-frontend-theme",
+        "erikdekamps/kingly_frontend": "dev-main",
         "erikdekamps/kingly_page": "dev-main",
         "erikdekamps/kingly_paragraph_text": "dev-main",
         "erikdekamps/kingly_paragraph_card": "dev-main",
