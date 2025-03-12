@@ -11,6 +11,8 @@ install:
   - field_group
   - coffee
   - kingly_sdc
+  - menu_ui
+  - menu_link_content
 
 config:
   strict: false
