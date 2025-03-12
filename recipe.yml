@@ -8,14 +8,56 @@ recipes:
   - drupal_cms_search
 
 install:
+  - config
+  - node
+  - user
+  - text
+  - link
+  - filter
+  - block
+  - block_content
+  - ckeditor5
+  - contextual
+  - menu_link_content
+  - datetime
+  - block_content
+  - editor
+  - image
+  - menu_ui
+  - options
+  - path
+  - dynamic_page_cache
+  - big_pipe
+  - taxonomy
+  - dblog
+  - toolbar
+  - field_ui
+  - media
+  - media_library
+  - views
+  - views_ui
+  - automated_cron
+  - config_ignore
+  - pathauto
+  - redirect
+  - menu_block
+  - metatag
+  - metatag_open_graph
+  - metatag_verification
   - field_group
   - coffee
   - kingly_sdc
-  - menu_ui
-  - menu_link_content
 
 config:
   strict: false
+  import:
+    dblog: '*'
+    pathauto: '*'
+    redirect:
+      - redirect.settings
+      - system.action.redirect_delete_action
+      - views.view.redirect
+
   actions:
     block.block.gin_admin:
       simple_config_update:
@@ -45,3 +87,8 @@ config:
       simple_config_update:
         classic_toolbar: new
         enable_darkmode: auto
+    user.settings:
+      simpleConfigUpdate:
+        verify_mail: true
+        register: admin_only
+        cancel_method: user_cancel_block
