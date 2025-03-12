@@ -2,6 +2,9 @@ name: 'Kingly'
 type: 'Site'
 description: Installs other recipes to kickstart a site.
 recipes:
+  - core/recipes/administrator_role
+  - core/recipes/core_recommended_maintenance
+  - core/recipes/core_recommended_performance
   - core/recipes/basic_html_format_editor
   - drupal_cms_admin_ui
   - ddr_security_seckit
