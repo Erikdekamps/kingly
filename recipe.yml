@@ -54,12 +54,27 @@ config:
   strict: false
   import:
     dblog: '*'
+    image: '*'
+    media: '*'
+    media_library: '*'
     pathauto: '*'
     redirect:
       - redirect.settings
       - system.action.redirect_delete_action
       - views.view.redirect
-
+    node:
+      - views.view.content
+    user:
+      - views.view.user_admin_people
+    gin:
+      - gin.settings
+      - block.block.gin_breadcrumbs
+      - block.block.gin_content
+      - block.block.gin_local_actions
+      - block.block.gin_messages
+      - block.block.gin_page_title
+      - block.block.gin_primary_local_tasks
+      - block.block.gin_secondary_local_tasks
   actions:
     block.block.gin_admin:
       simple_config_update:
