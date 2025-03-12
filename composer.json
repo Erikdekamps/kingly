@@ -13,6 +13,7 @@
         "drupal/velir_base": "^1.0",
         "erikdekamps/kingly_frontend": "dev-main",
         "erikdekamps/kingly_page": "dev-main",
-        "erikdekamps/kingly_paragraph_text": "dev-main"
+        "erikdekamps/kingly_paragraph_text": "dev-main",
+        "erikdekamps/kingly_paragraph_card": "dev-main"
     }
 }
