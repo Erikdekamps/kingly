@@ -14,8 +14,11 @@ recipes:
   - drupal_cms_image
   - drupal_cms_search
   # Kingly recipes
+  - kingly_frontend
   - kingly_page
   - kingly_paragraph_text
+  - kingly_paragraph_media
+  - kingly_paragraph_card
 
 install:
   - config
