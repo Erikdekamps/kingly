@@ -2,14 +2,20 @@ name: 'Kingly'
 type: 'Site'
 description: Installs other recipes to kickstart a site.
 recipes:
+  # Core recipes
   - core/recipes/administrator_role
   - core/recipes/core_recommended_maintenance
   - core/recipes/core_recommended_performance
   - core/recipes/basic_html_format_editor
-  - drupal_cms_admin_ui
+  # External recipes
   - ddr_security_seckit
+  # Drupal CMS recipes
+  - drupal_cms_admin_ui
   - drupal_cms_image
   - drupal_cms_search
+  # Kingly recipes
+  - kingly_page
+  - kingly_paragraph_text
 
 install:
   - config
