@@ -49,6 +49,8 @@ install:
   - field_group
   - coffee
   - kingly_sdc
+  - admin_toolbar
+  - admin_toolbar_tools
 
 config:
   strict: false
@@ -102,7 +104,8 @@ config:
         status: false
     gin.settings:
       simple_config_update:
-        classic_toolbar: new
+        classic_toolbar: horizontal
+        show_user_theme_settings: true
         enable_darkmode: auto
     user.settings:
       simpleConfigUpdate:
