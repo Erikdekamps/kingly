@@ -9,9 +9,8 @@ recipes:
   - core/recipes/basic_html_format_editor
   # External recipes
   - ddr_security_seckit
-  # Drupal CMS recipes
-#  - drupal_cms_admin_ui
   - gin-admin-experience
+  # Drupal CMS recipes
   - drupal_cms_image
   - drupal_cms_search
   # Kingly recipes
