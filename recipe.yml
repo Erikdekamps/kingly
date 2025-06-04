@@ -10,7 +10,8 @@ recipes:
   # External recipes
   - ddr_security_seckit
   # Drupal CMS recipes
-  - drupal_cms_admin_ui
+#  - drupal_cms_admin_ui
+  - gin-admin-experience
   - drupal_cms_image
   - drupal_cms_search
   # Kingly recipes
