@@ -5,13 +5,14 @@ recipes:
   - core/recipes/administrator_role
   - core/recipes/core_recommended_maintenance
   - core/recipes/core_recommended_performance
-#  - core/recipes/basic_html_format_editor
+  - core/recipes/basic_html_format_editor
   - ddr_security_seckit
   - gin-admin-experience
   - drupal_cms_image
   - drupal_cms_search
   - kingly_frontend
   - kingly_page
+  - kingly_paragraph_text
   - kingly_paragraph_media
   - kingly_paragraph_card
   - kingly_paragraph_accordion
