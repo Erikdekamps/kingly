@@ -21,6 +21,7 @@
         "erikdekamps/kingly_paragraph_media": "dev-main",
         "erikdekamps/kingly_paragraph_card": "dev-main",
         "erikdekamps/kingly_paragraph_accordion": "dev-main",
+        "erikdekamps/kingly_paragraph_section": "dev-main",
         "kanopi/gin-admin-experience": "^1.0"
     }
 }
