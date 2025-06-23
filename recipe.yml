@@ -7,7 +7,7 @@ recipes:
   - core/recipes/core_recommended_performance
   - core/recipes/basic_html_format_editor
   - ddr_security_seckit
-  - gin-admin-experience
+  - drupal_cms_admin_ui
   - drupal_cms_image
   - drupal_cms_search
   - kingly_frontend
