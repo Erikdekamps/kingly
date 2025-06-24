@@ -10,7 +10,7 @@ recipes:
   - drupal_cms_admin_ui
   - drupal_cms_image
   - drupal_cms_search
-  - kingly_frontend
+#  - kingly_frontend
   - kingly_page
   - kingly_paragraph_text
   - kingly_paragraph_media
