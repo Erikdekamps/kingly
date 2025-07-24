@@ -56,6 +56,7 @@ install:
   - field_group
   - coffee
   - kingly_sdc
+  - kingly_minimal
   - admin_toolbar
   - admin_toolbar_tools
 
@@ -64,6 +65,7 @@ config:
   import:
     dblog: '*'
     image: '*'
+    kingly_minimal: '*'
     media: '*'
     media_library: '*'
     pathauto: '*'
@@ -89,3 +91,6 @@ config:
     node.settings:
       simple_config_update:
         use_admin_theme: true
+    system.theme:
+      simple_config_update:
+        default: kingly_minimal
