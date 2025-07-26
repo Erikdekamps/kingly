@@ -6,7 +6,6 @@ recipes:
   - core/recipes/core_recommended_maintenance
   - core/recipes/core_recommended_performance
   - core/recipes/basic_html_format_editor
-  - ddr_security_seckit
   - drupal_cms_admin_ui
   - drupal_cms_image
   - drupal_cms_search
