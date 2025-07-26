@@ -6,11 +6,9 @@ recipes:
   - core/recipes/core_recommended_maintenance
   - core/recipes/core_recommended_performance
 #  - core/recipes/basic_html_format_editor
-  - ddr_security_seckit
   - drupal_cms_admin_ui
   - drupal_cms_image
   - drupal_cms_search
-  - kingly_frontend
   - kingly_page
   - kingly_paragraph_text
   - kingly_paragraph_media
@@ -55,15 +53,17 @@ install:
   - metatag_verification
   - field_group
   - coffee
-  - kingly_sdc
   - admin_toolbar
   - admin_toolbar_tools
+  - kingly_sdc
+  - kingly_minimal
 
 config:
   strict: false
   import:
     dblog: '*'
     image: '*'
+    kingly_minimal: '*'
     media: '*'
     media_library: '*'
     pathauto: '*'
@@ -89,3 +89,6 @@ config:
     node.settings:
       simple_config_update:
         use_admin_theme: true
+    system.theme:
+      simple_config_update:
+        default: kingly_minimal
