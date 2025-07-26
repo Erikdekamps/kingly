@@ -5,7 +5,7 @@ recipes:
   - core/recipes/administrator_role
   - core/recipes/core_recommended_maintenance
   - core/recipes/core_recommended_performance
-  - core/recipes/basic_html_format_editor
+#  - core/recipes/basic_html_format_editor
   - drupal_cms_admin_ui
   - drupal_cms_image
   - drupal_cms_search
