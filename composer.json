@@ -9,7 +9,6 @@
         "drupal/coffee": "^2.0",
         "drupal/core": ">=10.4",
         "drupal/drupal_cms_admin_ui": "^1.0",
-        "drupal/drupal_cms_image": "^1.0",
         "drupal/drupal_cms_search": "^1.0",
         "drupal/metatag": "^2.1",
         "drupal/pathauto": "^1.13",
