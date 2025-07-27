@@ -16,7 +16,7 @@
         "erikdekamps/kingly_minimal": "dev-main",
         "erikdekamps/kingly_page": "dev-main",
         "erikdekamps/kingly_paragraph_text": "dev-main",
-        "erikdekamps/kingly_paragraph_media": "dev-refactor/centralize-media-config",
+        "erikdekamps/kingly_paragraph_media": "dev-main",
         "erikdekamps/kingly_paragraph_card": "dev-main",
         "erikdekamps/kingly_paragraph_accordion": "dev-main",
         "erikdekamps/kingly_paragraph_section": "dev-main"
