@@ -19,7 +19,7 @@
         "erikdekamps/kingly_paragraph_text": "dev-main",
         "erikdekamps/kingly_paragraph_media": "dev-main",
         "erikdekamps/kingly_paragraph_card": "dev-main",
-        "erikdekamps/kingly_paragraph_accordion": "dev-main",
+        "erikdekamps/kingly_paragraph_accordion": "dev-feature/refactor-accordion-paragraph",
         "erikdekamps/kingly_paragraph_section": "dev-main"
     }
 }
