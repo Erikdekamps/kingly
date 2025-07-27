@@ -55,7 +55,6 @@ install:
   - coffee
   - admin_toolbar
   - admin_toolbar_tools
-  - kingly_sdc
   - kingly_minimal
 
 config:
