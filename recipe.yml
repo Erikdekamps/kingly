@@ -15,6 +15,7 @@ recipes:
   - kingly_paragraph_quote
   - kingly_paragraph_accordion
   - kingly_paragraph_section
+  - kingly_paragraph_slideshow
 
 install:
   - config
