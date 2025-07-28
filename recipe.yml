@@ -13,6 +13,7 @@ recipes:
   - kingly_paragraph_media
   - kingly_paragraph_card
   - kingly_paragraph_gallery
+  - kingly_paragraph_hero
   - kingly_paragraph_quote
   - kingly_paragraph_accordion
   - kingly_paragraph_section
