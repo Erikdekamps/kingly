@@ -18,6 +18,7 @@ recipes:
   - kingly_paragraph_accordion
   - kingly_paragraph_section
   - kingly_paragraph_slideshow
+  - kingly_paragraph_testimonial
   - kingly_paragraph_timeline
 
 install:
