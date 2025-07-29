@@ -6,7 +6,7 @@ dependencies:
 id: catch_all
 label: 'Catch all'
 type: 'canonical_entities:node'
-pattern: '[node:title]'
+pattern: '[node:menu-link:parents:join-path]/[node:title]'
 selection_criteria: {  }
 selection_logic: and
 weight: -9
