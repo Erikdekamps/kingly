@@ -4,7 +4,6 @@ description: Installs other recipes to kickstart a site.
 recipes:
   - core/recipes/administrator_role
   - core/recipes/core_recommended_maintenance
-  - core/recipes/core_recommended_performance
   - drupal_cms_admin_ui
   - drupal_cms_search
   - kingly_page
@@ -20,6 +19,7 @@ recipes:
   - kingly_paragraph_slideshow
   - kingly_paragraph_testimonial
   - kingly_paragraph_timeline
+  - kingly_performance
 
 install:
   - config
