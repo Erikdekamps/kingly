@@ -6,7 +6,6 @@ recipes:
   - core/recipes/core_recommended_maintenance
   - drupal_cms_admin_ui
   - drupal_cms_search
-  - drupal_cms_seo_tools
   - kingly_page
   - kingly_paragraph_text
   - kingly_paragraph_button
@@ -21,6 +20,7 @@ recipes:
   - kingly_paragraph_testimonial
   - kingly_paragraph_timeline
   - kingly_performance
+  - drupal_cms_seo_tools
 
 install:
   - config
