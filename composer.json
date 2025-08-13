@@ -14,7 +14,7 @@
     "drupal/metatag": "^2.1",
     "drupal/pathauto": "^1.13",
     "drupal/redirect": "^1.11",
-    "erikdekamps/kingly_minimal": "dev-main",
+    "erikdekamps/kingly_minimal": "dev-feat/theme-color-settings",
     "erikdekamps/kingly_page": "dev-main",
     "erikdekamps/kingly_paragraph_accordion": "dev-main",
     "erikdekamps/kingly_paragraph_button": "dev-main",
